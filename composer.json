@@ -1,0 +1,14 @@
+{
+  "name": "losthost/json-object",
+  "description": "Dynamic JSON object wrapper with snake_case field access and Telegram-style getters",
+  "type": "library",
+  "license": "proprietary",
+  "autoload": {
+    "psr-4": {
+      "losthost\\JsonObject\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=8.1"
+  }
+}
