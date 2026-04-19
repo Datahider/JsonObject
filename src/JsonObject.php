@@ -8,7 +8,7 @@ use BadMethodCallException;
 use JsonException;
 use stdClass;
 
-final class JsonObject
+class JsonObject
 {
     protected stdClass|array $decoded;
 
